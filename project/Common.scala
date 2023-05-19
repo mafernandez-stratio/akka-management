@@ -11,7 +11,7 @@ object Common extends AutoPlugin {
 
   override lazy val projectSettings =
     Seq(
-      organization := "com.lightbend.akka.management",
+      organization := "com.stratio.akka.management",
       organizationName := "Lightbend Inc.",
       organizationHomepage := Some(url("https://www.lightbend.com/")),
       startYear := Some(2017),
