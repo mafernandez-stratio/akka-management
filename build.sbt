@@ -46,7 +46,7 @@ lazy val `akka-discovery-kubernetes-api` = project
   .enablePlugins(AutomateHeaderPlugin)
   .settings(
     name := "akka-discovery-kubernetes-api",
-    organization := "com.lightbend.akka.discovery",
+    organization := "com.stratio.akka.discovery",
     libraryDependencies := Dependencies.DiscoveryKubernetesApi,
     mimaPreviousArtifactsSet
   )
@@ -56,7 +56,7 @@ lazy val `akka-discovery-marathon-api` = project
   .enablePlugins(AutomateHeaderPlugin)
   .settings(
     name := "akka-discovery-marathon-api",
-    organization := "com.lightbend.akka.discovery",
+    organization := "com.stratio.akka.discovery",
     libraryDependencies := Dependencies.DiscoveryMarathonApi,
     mimaPreviousArtifactsSet
   )
@@ -66,7 +66,7 @@ lazy val `akka-discovery-aws-api` = project
   .enablePlugins(AutomateHeaderPlugin)
   .settings(
     name := "akka-discovery-aws-api",
-    organization := "com.lightbend.akka.discovery",
+    organization := "com.stratio.akka.discovery",
     libraryDependencies := Dependencies.DiscoveryAwsApi,
     mimaPreviousArtifactsSet
   )
@@ -76,7 +76,7 @@ lazy val `akka-discovery-aws-api-async` = project
   .enablePlugins(AutomateHeaderPlugin)
   .settings(
     name := "akka-discovery-aws-api-async",
-    organization := "com.lightbend.akka.discovery",
+    organization := "com.stratio.akka.discovery",
     libraryDependencies := Dependencies.DiscoveryAwsApiAsync,
     mimaPreviousArtifactsSet
   )
@@ -86,7 +86,7 @@ lazy val `akka-discovery-consul` = project
   .enablePlugins(AutomateHeaderPlugin)
   .settings(
     name := "akka-discovery-consul",
-    organization := "com.lightbend.akka.discovery",
+    organization := "com.stratio.akka.discovery",
     libraryDependencies := Dependencies.DiscoveryConsul,
     mimaPreviousArtifactsSet
   )
